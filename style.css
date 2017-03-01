@@ -1,0 +1,152 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  -webkit-text-stroke: 0.0px black;
+/*  display: flex; 
+  flex-direction: column; 
+  justify-content: center; */
+}
+
+p {
+  margin: 2% 2% 2% 2%;
+}
+
+h3 {
+font-size: 140%;
+}
+
+.cntr {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin: auto;
+  padding-bottom: 50px;
+  padding-top: 30px;
+}
+
+.cntr .cntr-innr {
+  text-align: center;
+  margin: auto;
+}
+
+.results {
+  padding-top: 40px;
+}
+
+.search {
+  display: inline-block;
+  position: relative;
+  height: 35px;
+  width: 35px;
+  box-sizing: border-box;
+  margin: 0px 8px 7px 0px;
+  padding: 3px 9px 0px 9px;
+  border: 3px solid #ffffff;
+  border-radius: 25px;
+  -webkit-transition: all 300ms ease;
+          transition: all 300ms ease;
+  cursor: text;
+}
+
+.search:after {
+  content: "";
+  position: absolute;
+  width: 3px;
+  height: 20px;
+  right: -5px;
+  top: 21px;
+  background: #ffffff;
+  border-radius: 3px;
+  -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: all 300ms ease;
+          transition: all 300ms ease;
+}
+
+.search.active,
+.search:hover {
+  width: 200px;
+  margin-right: 0px;
+}
+
+.search.active:after,
+.search:hover:after {
+  height: 0px;
+}
+
+.search input {
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  font-family: Helvetica;
+  font-size: 15px;
+  color: inherit;
+  background: transparent;
+  outline-width: 0px;
+} 
+
+.fa {
+  padding-left: 20px;
+  line-height: inherit;
+  font-size: 215%;
+  transform: scale(1) translateY(+11%) rotateX(0deg);
+  cursor: pointer; 
+  cursor: hand;
+  transition: all 0.2s ease-in-out;
+}
+
+.fa:hover {
+  transform: scale(1.2) translateY(+12%) rotateX(-10deg) skew(0deg); 
+  transition: all 0.2s ease-in-out;
+
+}
+
+
+.display-results {
+  margin: 2% auto 4% auto;
+}
+
+.results {
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  margin: 1% auto 1% auto;
+  width: 80%;
+  padding: 0px 10px;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 1);
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.results:hover {
+  border-radius: 25px;
+  transition: 0.5s;
+}
+
+.error {
+  margin: 15% 5% 5% 5%;
+  font-size: 130%;
+}
+
+a {
+  width: 80%;
+  color: #333;
+}
+
+
+a:hover {
+text-decoration: none;
+color: #00ADFF;
+}

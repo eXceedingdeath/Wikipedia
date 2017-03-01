@@ -18,7 +18,7 @@ body {
 }
 
 p {
-  margin: 2% 2% 2% 2%;
+  margin: 2% 2% 1% 2%;
 }
 
 h3 {
@@ -40,7 +40,7 @@ font-size: 140%;
 }
 
 .results {
-  padding-top: 40px;
+  padding-top: 20px;
 }
 
 .search {
@@ -121,18 +121,20 @@ font-size: 140%;
   text-align: center;
   border-radius: 10px;
   position: relative;
-  margin: 1% auto 1% auto;
+  margin: 0.5% auto 0.5% auto;
   width: 80%;
   padding: 0px 10px;
   display: inline-block;
   background-color: rgba(255, 255, 255, 1);
   opacity: 1;
-  transition: 0.5s;
+  transition: border-radius 0.5s;
 }
+
 
 .results:hover {
   border-radius: 25px;
-  transition: 0.5s;
+  transition: border-radius 0.5s;
+  border: 2px solid #00ADFF;
 }
 
 .error {

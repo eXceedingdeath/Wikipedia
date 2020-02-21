@@ -1,1 +1,1 @@
-https://sunstarsmoon.com/Wikipedia/
+https://theghostswithin.fr/Wikipedia/

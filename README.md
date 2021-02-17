@@ -1,1 +1,1 @@
-https://theghostswithin.fr/Wikipedia/
+https://pascalmaumejean.eu/Wikipedia/
